@@ -136,10 +136,8 @@ def crossover_ox(parent1, parent2):
 
     if sum(child1) != 820:
         print(child1)
-        raise("Shits wrong 1")
     if sum(child1) != 820:
         print(child1)
-        raise("Shits wrong 2")
     return child1, child2
 
 if __name__ == '__main__':
